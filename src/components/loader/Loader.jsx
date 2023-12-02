@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import { DNA } from 'react-loader-spinner';
+import { Dna } from 'react-loader-spinner';
 
 class Loader extends Component {
   render() {
     return (
       <div className="loader">
-        <DNA
+        <Dna
           visible={true}
           height="80"
           width="80"
