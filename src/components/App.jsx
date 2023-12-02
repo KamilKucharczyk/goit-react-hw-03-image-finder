@@ -10,7 +10,7 @@ import axios from 'axios';
 
 import css from './app.module.css';
 
-import Notiflix from 'notiflix';
+const baseURL = 'https://pixabay.com/api/';
 
 export class App extends Component {
   state = {
